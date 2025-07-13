@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Collection - Animated Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="header-content">
+                <h1><a href="index.html">Animated Movies Collection</a></h1>
+                <div class="header-controls">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search movies...">
+                        <button id="searchBtn">🔍</button>
+                    </div>
+                    <button id="menuToggle" class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="menu-overlay" id="menuOverlay">
+            <div class="menu-content">
+                <h3>Sort By</h3>
+                <button class="menu-item" data-sort="name-asc">Name (A-Z)</button>
+                <button class="menu-item" data-sort="name-desc">Name (Z-A)</button>
+                <button class="menu-item" data-sort="date-asc">Date (Oldest First)</button>
+                <button class="menu-item" data-sort="date-desc">Date (Newest First)</button>
+                <button class="menu-item" data-sort="company">Production Company</button>
+                
+                <h3>Filter By</h3>
+                <h2>company</h2>
+                <button class="second menu-item" data-offset = "company" data-filter= "all">All Movies</button>
+                <button class="second menu-item" data-offset = "company" data-filter="Disney">Disney</button>
+                <button class="second menu-item" data-offset = "company" data-filter="Pixar">Pixar</button>
+                <button class="second menu-item" data-offset = "company" data-filter="DreamWorks">DreamWorks</button>
+                <button class="second menu-item" data-offset = "company" data-filter="Illumination">Illumination</button>
+                <h2>category</h2>
+                <button class="second menu-item" data-offset = "category" data-filter ="all">All Movies</button>
+                <button class="second menu-item" data-offset = "category" data-filter="Adventure">Adventure</button>
+                <button class="second menu-item" data-offset = "category" data-filter="Comedy">Comedy</button>
+                <button class="second menu-item" data-offset = "category" data-filter="Family">Family</button>
+                <button class="second menu-item" data-offset = "category" data-filter="Fantasy">Fantasy</button>
+                <button class="second menu-item" data-offset = "category" data-filter="Romance">Romance</button>
+                
+                <h3>Options</h3>
+                <button class="menu-item" id="darkModeToggle">🌙 Dark Mode</button>
+                <a href="customize.html" class="menu-item">⚙️ Customize</a>
+            </div>
+        </div>
+
+        <main class="movie-list-container">
+            <div class="list-header">
+                <h2>Movie Collection (<span id="movieCount">95</span> movies)</h2>
+                <div class="view-options">
+                    <button class="view-btn active" data-view="detailed">Detailed View</button>
+                    <button class="view-btn" data-view="compact">Compact View</button>
+                </div>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Loading movies...</p>
+            </div>
+
+            <div class="movies-grid" id="moviesGrid">
+                <!-- Movies will be dynamically loaded here -->
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Animated Movies Collection</p>
+        </footer>
+    </div>
+
+    <script src="movies-data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
