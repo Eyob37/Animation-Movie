@@ -425,7 +425,7 @@ function loadPreferences() {
         });
     }
     
-    firstPrepar = localStorage.getItem('firstPrepar');
+    firstPrepar = localStorage.getItem('firstPrepar') || "nonCustom";
     console.log(firstPrepar);
     if(savedSort && firstPrepar == "nonCustom") {
         localStorage.setItem('firstPrepar', "nonCustom");
