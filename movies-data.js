@@ -103,7 +103,7 @@ const moviesData = [
     year: 2013,
     category: "Adventure",
     company: "DreamWorks",
-    image: "https://m.media-amazon.com/images/M/MV5BMTQ3MjU1NDA0N15BMl5BanBnXkFtZTcwNTAyOTU1OQ@@._V1_.jpg"
+    image: "https://www.impawards.com/2013/posters/turbo_xlg.jpg"
   },
   {
     id: 13,
@@ -144,7 +144,7 @@ const moviesData = [
     year: 1999,
     category: "Adventure",
     company: "Disney",
-    image: "https://m.media-amazon.com/images/M/MV5BYWY1ZDY0OGYtOTVkNy00OTQyLWI5YzQtMmQwNTE0NjE0Y2I4XkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_.jpg"
+    image: "https://www.impawards.com/1999/posters/tarzan_ver2_xlg.jpg"
   },
   {
     id: 18,
@@ -152,7 +152,7 @@ const moviesData = [
     year: 1992,
     category: "Adventure",
     company: "Disney",
-    image: "https://m.media-amazon.com/images/M/MV5BY2Q2NDI1MjUtM2Q5ZS00MTFlLWJiYWEtNTZmNjQ3OGJkZDgxXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_.jpg"
+    image: "https://www.impawards.com/1992/posters/aladdin_ver1_xlg.jpg"
   },
   {
     id: 19,
@@ -160,7 +160,7 @@ const moviesData = [
     year: 2015,
     category: "Family",
     company: "DreamWorks",
-    image: "https://m.media-amazon.com/images/M/MV5BMTA2NTAyNzE1MTZeQTJeQWpwZ15BbWU4MDU0MDkzOTAx._V1_.jpg"
+    image: "https://www.impawards.com/2015/posters/home_xlg.jpg"
   },
   {
     id: 20,
@@ -176,7 +176,7 @@ const moviesData = [
     year: 2016,
     category: "Comedy",
     company: "Warner Bros",
-    image: "https://m.media-amazon.com/images/M/MV5BMTYxNjA3NDQ5N15BMl5BanBnXkFtZTgwMzg0NjYxOTE@._V1_.jpg"
+    image: "http://www.impawards.com/2016/posters/storks_xlg.jpg"
   },
   {
     id: 22,
@@ -184,7 +184,7 @@ const moviesData = [
     year: 2019,
     category: "Adventure",
     company: "DreamWorks",
-    image: "https://m.media-amazon.com/images/M/MV5BMTYzYzY3NDgtYjhlNy00MzBkLTg1MzYtMjliMzFjYzY2ZGY0XkEyXkFqcGdeQXVyNzYzOTM2Mzg@._V1_.jpg"
+    image: "https://www.impawards.com/2019/posters/abominable_ver3_xlg.jpg"
   },
   {
     id: 23,
@@ -192,7 +192,7 @@ const moviesData = [
     year: 2019,
     category: "Adventure",
     company: "20th Century Fox",
-    image: "https://m.media-amazon.com/images/M/MV5BNzg3Y2Q1Y2MtMDFmNS00Y2Y4LWE4MDAtNjA2N2JjMTY1NDc2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    image: "https://www.impawards.com/2019/posters/spies_in_disguise_xlg.jpg"
   },
   {
     id: 24,
@@ -200,7 +200,7 @@ const moviesData = [
     year: 2018,
     category: "Family",
     company: "Netflix",
-    image: "https://m.media-amazon.com/images/M/MV5BNjUyNWFkOTEtY2QyYi00NDhhLWE5OTgtYmNhMTg5NTA1YjIxXkEyXkFqcGdeQXVyNzYzOTM2Mzg@._V1_.jpg"
+    image: "https://www.impawards.com/2018/posters/duck_duck_goose_xlg.jpg"
   },
   {
     id: 25,
@@ -216,7 +216,7 @@ const moviesData = [
     year: 2017,
     category: "Comedy",
     company: "Sony",
-    image: "https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTgwODMyNDY0MjI@._V1_.jpg"
+    image: "https://image.tmdb.org/t/p/original/60bTx5z9zL1AqCjZ0gmWoRMJ6Bb.jpg"
   },
   {
     id: 27,
@@ -240,7 +240,7 @@ const moviesData = [
     year: 2023,
     category: "Family",
     company: "Disney",
-    image: "https://m.media-amazon.com/images/M/MV5BNzQwODI2N2QtODU2Zi00YjU0LThiZjMtMjk2YzcxOWVhY2M1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+    image: "https://image.tmdb.org/t/p/original/nesuSdJakNkf0zs7OfoasB6Clxf.jpg"
   },
   {
     id: 30,
@@ -264,7 +264,7 @@ const moviesData = [
     year: 2021,
     category: "Family",
     company: "Sony",
-    image: "https://m.media-amazon.com/images/M/MV5BNjZhYzFmYzktZDk0MC00OTFiLWFiZDYtZTI1NDg4N2Q1MzU2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    image: "https://www.impawards.com/2021/posters/vivo_xlg.jpg"
   },
   {
     id: 33,
@@ -272,7 +272,7 @@ const moviesData = [
     year: 2023,
     category: "Adventure",
     company: "Netflix",
-    image: "https://m.media-amazon.com/images/M/MV5BZWI5YzEyY2ItM2Y5Yy00ODNlLWI5Y2ItOGUyMWQ3YzFlYjlmXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+    image: "https://www.impawards.com/2023/posters/monkey_king_xlg.jpg"
   },
   {
     id: 34,
@@ -288,7 +288,7 @@ const moviesData = [
     year: 2016,
     category: "Family",
     company: "Entertainment One",
-    image: "https://m.media-amazon.com/images/M/MV5BMjI5OTkyNjQ5OV5BMl5BanBnXkFtZTgwNjM2NjY1MDI@._V1_.jpg"
+    image: "https://www.impawards.com/intl/france/2016/posters/ballerina_ver3_xlg.jpg"
   },
   {
     id: 36,
@@ -296,7 +296,7 @@ const moviesData = [
     year: 2018,
     category: "Family",
     company: "Warner Bros",
-    image: "https://m.media-amazon.com/images/M/MV5BMjI1NDA1NDgwN15BMl5BanBnXkFtZTgwOTc1NTk0NTM@._V1_.jpg"
+    image: "https://www.impawards.com/2018/posters/smallfoot_ver10_xlg.jpg"
   },
   {
     id: 37,
@@ -304,7 +304,7 @@ const moviesData = [
     year: 2006,
     category: "Adventure",
     company: "Warner Bros",
-    image: "https://m.media-amazon.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjc1NTE3._V1_.jpg"
+    image: "https://www.impawards.com/2006/posters/ant_bully_ver2_xlg.jpg"
   },
   {
     id: 38,
@@ -312,7 +312,7 @@ const moviesData = [
     year: 2006,
     category: "Comedy",
     company: "DreamWorks",
-    image: "https://m.media-amazon.com/images/M/MV5BMTQwOTU3NDEzMV5BMl5BanBnXkFtZTcwODI5MzgzMQ@@._V1_.jpg"
+    image: "https://www.impawards.com/2006/posters/over_the_hedge_xlg.jpg"
   },
   {
     id: 39,
@@ -320,7 +320,7 @@ const moviesData = [
     year: 2023,
     category: "Romance",
     company: "Pixar",
-    image: "https://m.media-amazon.com/images/M/MV5BZjYxYzU0OWYtNDRmYy00NGRkLWE0MWUtYzQ0ZDQ1Y2FhOWM5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+    image: "https://www.impawards.com/2023/posters/elemental_xlg.jpg"
   },
   {
     id: 40,
@@ -337,7 +337,7 @@ const moviesData = [
     year: 2007,
     category: "Adventure",
     company: "Disney",
-    image: "https://m.media-amazon.com/images/M/MV5BMTk0NTk2ODQzM15BMl5BanBnXkFtZTcwNTQ5NjQzMw@@._V1_.jpg"
+    image: "https://www.impawards.com/2007/posters/meet_the_robinsons_xlg.jpg"
   },
   {
     id: 42,
@@ -354,7 +354,7 @@ const moviesData = [
     category: "Comedy",
     company: "Sony",
     series: "Angry Birds 1 & 2",
-    image: "https://m.media-amazon.com/images/M/MV5BMTk3NDY5MDU2NV5BMl5BanBnXkFtZTgwNjI4MDY0NzE@._V1_.jpg"
+    image: "https://www.impawards.com/2016/posters/angry_birds_xlg.jpg"
   },
   {
     id: 44,
@@ -362,7 +362,7 @@ const moviesData = [
     year: 2019,
     category: "Adventure",
     company: "Drawbridge",
-    image: "https://m.media-amazon.com/images/M/MV5BZjY3YzE4YjYtYjU3Yi00ZDI5LTg5YjktYzA0OTJmYjVlYzVjXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg"
+    image: "https://www.impawards.com/intl/france/2019/posters/terra_willy_planete_inconnue_xlg.jpg"
   },
   {
     id: 45,
@@ -394,7 +394,7 @@ const moviesData = [
     year: 2020,
     category: "Adventure",
     company: "Pixar",
-    image: "https://m.media-amazon.com/images/M/MV5BMTZlYjNjNDEtNTEwNy00M2E3LTk2NmYtZDZkMGM4YzFhMjU5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+    image: "https://www.impawards.com/2020/posters/onward_xlg.jpg"
   },
   {
     id: 49,
@@ -402,7 +402,7 @@ const moviesData = [
     year: 2005,
     category: "Comedy",
     company: "Disney",
-    image: "https://m.media-amazon.com/images/M/MV5BMTY1NjY0ODQ0Nl5BMl5BanBnXkFtZTcwMjQ0NDYzMw@@._V1_.jpg"
+    image: "https://www.impawards.com/2005/posters/chicken_little_xlg.jpg"
   },
   {
     id: 50,
@@ -410,7 +410,7 @@ const moviesData = [
     year: 2021,
     category: "Adventure",
     company: "Sony",
-    image: "https://m.media-amazon.com/images/M/MV5BNjJmYjVjMmQtMGM1MS00ZjAzLTlmY2QtMzRiY2Q5M2RlMmQ4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    image: "https://www.impawards.com/intl/china/2021/posters/wish_dragon_xlg.jpg"
   },
   {
     id: 51,
@@ -452,7 +452,7 @@ const moviesData = [
     year: 2016,
     category: "Adventure",
     company: "Arcadia Motion Pictures",
-    image: "https://m.media-amazon.com/images/M/MV5BMTU4MjUxOTk5Nl5BMl5BanBnXkFtZTgwNjYyMzU0NzE@._V1_.jpg"
+    image: "https://www.impawards.com/intl/spain/2016/posters/ozzy_xlg.jpg"
   },
   {
     id: 56,
@@ -460,7 +460,7 @@ const moviesData = [
     year: 2015,
     category: "Adventure",
     company: "Telegael",
-    image: "https://m.media-amazon.com/images/M/MV5BMTg5MzA3ODAyN15BMl5BanBnXkFtZTgwNDU5MjE0NzE@._V1_.jpg"
+    image: "https://www.impawards.com/2015/posters/blinky_bill_the_movie_xlg.jpg"
   },
   {
     id: 57,
@@ -477,7 +477,7 @@ const moviesData = [
     year: 2009,
     category: "Adventure",
     company: "Pixar",
-    image: "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_.jpg"
+    image: "https://www.impawards.com/2009/posters/up_xlg.jpg"
   },
   {
     id: 59,
@@ -518,7 +518,7 @@ const moviesData = [
     year: 2024,
     category: "Adventure",
     company: "DreamWorks",
-    image: "https://m.media-amazon.com/images/M/MV5BZDY1YTE3YjItY2E0MC00Y2VlLThhYTYtYjA0OTVkZTM1M2Q5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+    image: "https://www.impawards.com/2024/posters/wild_robot_xlg.jpg"
   },
   {
     id: 64,
@@ -526,7 +526,7 @@ const moviesData = [
     year: 2005,
     category: "Adventure",
     company: "20th Century Fox",
-    image: "https://m.media-amazon.com/images/M/MV5BNDYxNjI4NDYtMDgwMC00NmIyLWJhY2QtZGIxNDY1ODRlNzQ5XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_.jpg"
+    image: "https://www.impawards.com/2005/posters/robots_xlg.jpg"
   },
   {
     id: 65,
@@ -534,7 +534,7 @@ const moviesData = [
     year: 2013,
     category: "Adventure",
     company: "20th Century Fox",
-    image: "https://m.media-amazon.com/images/M/MV5BMTgzMzYzNDE0Ml5BMl5BanBnXkFtZTcwODg2ODAyOQ@@._V1_.jpg"
+    image: "https://www.impawards.com/2013/posters/epic_xlg.jpg"
   },
   {
     id: 66,
@@ -551,7 +551,7 @@ const moviesData = [
     year: 2016,
     category: "Comedy",
     company: "Huayi Brothers",
-    image: "https://m.media-amazon.com/images/M/MV5BMjE2ODQyOTk0N15BMl5BanBnXkFtZTgwNjY5MzY0MDI@._V1_.jpg"
+    image: "https://www.impawards.com/2016/posters/rock_dog_xlg.jpg"
   },
   {
     id: 68,
@@ -559,7 +559,7 @@ const moviesData = [
     year: 2019,
     category: "Adventure",
     company: "Entertainment Studios",
-    image: "https://m.media-amazon.com/images/M/MV5BZDI3YjVhMjYtYzVhZi00Y2U0LWIyZjQtYjJhNDZhMjI4Y2FjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    image: "https://www.impawards.com/intl/uk/2019/posters/arctic_dogs_xlg.jpg"
   },
   {
     id: 69,
@@ -567,7 +567,7 @@ const moviesData = [
     year: 1961,
     category: "Adventure",
     company: "Disney",
-    image: "https://m.media-amazon.com/images/M/MV5BZmY4YWM1YzUtYzU3ZC00ZTI0LTg3YTItY2Q5YmI0OTQyZWI4XkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_.jpg"
+    image: "https://www.impawards.com/1961/posters/one_hundred_and_one_dalmatians_xlg.jpg"
   },
   {
     id: 70,
@@ -616,7 +616,7 @@ const moviesData = [
     year: 2012,
     category: "Family",
     company: "Illumination",
-    image: "https://m.media-amazon.com/images/M/MV5BOTg1MjA5ODkzNV5BMl5BanBnXkFtZTcwMTQwODg3Nw@@._V1_.jpg"
+    image: "http://www.impawards.com/2012/posters/lorax_ver2_xlg.jpg"
   },
   {
     id: 76,
@@ -641,7 +641,7 @@ const moviesData = [
     year: 2022,
     category: "Comedy",
     company: "Pixar",
-    image: "https://m.media-amazon.com/images/M/MV5BOWYxZDMxYWUtNjNiZC00MDE1LWI2Y2QtOTZhYzRhMDY2YTc1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+    image: "https://www.impawards.com/2022/posters/turning_red_xlg.jpg"
   },
   {
     id: 79,
@@ -675,7 +675,7 @@ const moviesData = [
     category: "Adventure",
     company: "20th Century Fox",
     series: "Ice Age Series",
-    image: "https://m.media-amazon.com/images/M/MV5BOGE2MTIwYzMtNjU3YS00ZmVmLWE1YzItYTYyMDFiM2Q2ODFhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+    image: "http://www.impawards.com/2002/posters/ice_age_ver2_xlg.jpg"
   },
   {
     id: 83,
@@ -683,7 +683,7 @@ const moviesData = [
     year: 2008,
     category: "Family",
     company: "20th Century Fox",
-    image: "https://m.media-amazon.com/images/M/MV5BMTkwNTk2NzcyNF5BMl5BanBnXkFtZTcwNTM1MDA0MQ@@._V1_.jpg"
+    image: "https://www.impawards.com/2008/posters/horton_hears_a_who_xlg.jpg"
   },
   {
     id: 84,
@@ -700,7 +700,7 @@ const moviesData = [
     year: 2024,
     category: "Adventure",
     company: "Netflix",
-    image: "https://m.media-amazon.com/images/M/MV5BZGY3YzQ1YjAtNDFhYi00ZjY0LTk5YjItY2U5YzJmNmJmY2FkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+    image: "https://www.impawards.com/2024/posters/orion_and_the_dark_xlg.jpg"
   },
   {
     id: 86,
@@ -708,7 +708,7 @@ const moviesData = [
     year: 2024,
     category: "Comedy",
     company: "Netflix",
-    image: "https://m.media-amazon.com/images/M/MV5BZjQ0YjBjYzktYjU3ZS00YzI1LTk5YjMtYzQ1YzY5YzQ4YzVkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+    image: "https://www.impawards.com/2024/posters/thelma_the_unicorn_xlg.jpg"
   },
   {
     id: 87,
@@ -717,7 +717,7 @@ const moviesData = [
     category: "Adventure",
     company: "Pixar",
     series: "Finding Nemo & Finding Dory",
-    image: "https://m.media-amazon.com/images/M/MV5BZTAzNWZlNmUtZDEzYi00ZjA5LWIwYjEtZGM1NWE1MjE4YWRhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    image: "https://www.impawards.com/2003/posters/finding_nemo_xlg.jpg"
   },
   {
     id: 88,
@@ -725,7 +725,7 @@ const moviesData = [
     year: 2006,
     category: "Adventure",
     company: "Warner Bros",
-    image: "https://m.media-amazon.com/images/M/MV5BZWU2NDY2N2ItYTAwYi00YjU0LTg1ZWMtZjNmY2QzMGE0YjRhXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_.jpg"
+    image: "https://www.impawards.com/2006/posters/happy_feet_xlg.jpg"
   },
   {
     id: 89,
@@ -734,7 +734,7 @@ const moviesData = [
     category: "Comedy",
     company: "Sony",
     series: "Open Season 1 & 2",
-    image: "https://m.media-amazon.com/images/M/MV5BNTk2NzUyOTk3Ml5BMl5BanBnXkFtZTcwODQ5OTYzMQ@@._V1_.jpg"
+    image: "https://www.impawards.com/2006/posters/open_season_xlg.jpg"
   },
   {
     id: 90,
@@ -751,7 +751,7 @@ const moviesData = [
     year: 2014,
     category: "Comedy",
     company: "DreamWorks",
-    image: "https://m.media-amazon.com/images/M/MV5BMTEyODk1MjY5NzJeQTJeQWpwZ15BbWU4MDQyMjY2MzEx._V1_.jpg"
+    image: "https://www.impawards.com/2014/posters/penguins_of_madagascar_xlg.jpg"
   },
   {
     id: 92,
@@ -776,7 +776,7 @@ const moviesData = [
     year: 2021,
     category: "Adventure",
     company: "Sony",
-    image: "https://m.media-amazon.com/images/M/MV5BMjdkZjNjNDUtYzViNS00MTY2LWE0M2UtMTBjYzliYWU5MDY0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+    image: "https://www.impawards.com/2021/posters/mitchells_vs_the_machines_xlg.jpg"
   },
   {
     id: 95,
@@ -784,7 +784,7 @@ const moviesData = [
     year: 2009,
     category: "Romance",
     company: "Disney",
-    image: "https://m.media-amazon.com/images/M/MV5BNzk4ODk1NjMxNF5BMl5BanBnXkFtZTcwODAwNDg3Mg@@._V1_.jpg"
+    image: "https://www.impawards.com/2009/posters/princess_and_the_frog_xlg.jpg"
 
   }
 ]; 
