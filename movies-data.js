@@ -370,7 +370,7 @@ const moviesData = [
     year: 2009,
     category: "Adventure",
     company: "Imagi",
-    image: "https://m.media-amazon.com/images/M/MV5BMTIwMDY5NjQ5M15BMl5BanBnXkFtZTcwMjAzNjQyMg@@._V1_.jpg"
+    image: "https://picfiles.alphacoders.com/354/354733.jpg"
   },
   {
     id: 46,
@@ -469,7 +469,7 @@ const moviesData = [
     category: "Adventure",
     company: "Nickelodeon",
     series: "Bigfoot 1 & 2",
-    image: "https://m.media-amazon.com/images/M/MV5BZTYwYjYxYzgtMGE1Ni00YTY5LWE5ZjAtYzA5ZmM1OTQ0ODk1XkEyXkFqcGdeQXVyMTEwNDU1MzEy._V1_.jpg"
+    image: "https://www.impawards.com/intl/misc/2017/posters/son_of_bigfoot.jpg"
   },
   {
     id: 58,
@@ -494,7 +494,7 @@ const moviesData = [
     category: "Comedy",
     company: "Pixar",
     series: "Monsters 1 & 2",
-    image: "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+    image: "https://www.impawards.com/2009/posters/monsters_vs_aliens.jpg"
   },
   {
     id: 61,
@@ -510,7 +510,7 @@ const moviesData = [
     year: 2022,
     category: "Adventure",
     company: "Warner Bros",
-    image: "https://m.media-amazon.com/images/M/MV5BZTIyNzc3NzMtYjQ0ZS00ODlkLTk1YzEtZDVhZTg1YzU2YzY0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    image: "https://xpatloop.com/binaries/content/gallery/xpatloop/movies/dc-league-of-super-pets.jpg"
   },
   {
     id: 63,
@@ -600,7 +600,7 @@ const moviesData = [
     year: 2014,
     category: "Family",
     company: "StudioCanal",
-    image: "https://m.media-amazon.com/images/M/MV5BMTAxODk0MDE2NDBeQTJeQWpwZ15BbWU4MDE0ODgxNDEx._V1_.jpg"
+    image: "https://www.impawards.com/2014/posters/paddington_bear_ver3.jpg"
   },
   {
     id: 74,
@@ -692,7 +692,7 @@ const moviesData = [
     category: "Fantasy",
     company: "Disney",
     series: "Tinker Bell Movies (6 films)",
-    image: "https://m.media-amazon.com/images/M/MV5BMTM3ODcxMTY5OF5BMl5BanBnXkFtZTcwODQzNjU3Mw@@._V1_.jpg"
+    image: "https://www.impawards.com/intl/misc/2014/posters/tinkerbell_and_the_legend_of_the_neverbeast.jpg"
   },
   {
     id: 85,
@@ -743,7 +743,7 @@ const moviesData = [
     category: "Comedy",
     company: "DreamWorks",
     series: "Madagascar 1 & 2",
-    image: "https://m.media-amazon.com/images/M/MV5BN2U5YWFkNjEtYzZkMi00YTliLThmYmUtM2Y0N2JjODZkYzM0XkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg"
+    image: "https://www.impawards.com/2005/posters/madagascar_ver10.jpg"
   },
   {
     id: 91,
