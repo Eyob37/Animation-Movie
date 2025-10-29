@@ -1,4 +1,8 @@
 // Global variables
+let tst = JSON.parse(localStorage.getItem("movieFilter")) || [];
+if (tst.length < 2) {   
+    localStorage.setItem("movieFilter", JSON.stringify(["all","all"]));
+}
 
 let currentMovies = [...moviesData];
 let filteredMovies = [...moviesData];
