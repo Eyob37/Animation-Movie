@@ -47,7 +47,7 @@ const moviesData = [{
     year: 2009,
     category: "Adventure",
     company: "Imagi",
-    image: "./Images/Astro Boy.jpg"
+    image: "./Images/Astro boy.jpg"
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ const moviesData = [{
     year: 2008,
     category: "Adventure",
     company: "Pixar",
-    image: "./Images/WALL-E.jpg"
+    image: "./Images/Wall-E.jpg"
   },
   {
     id: 8,
@@ -129,7 +129,7 @@ const moviesData = [{
     category: "Adventure",
     company: "Pixar",
     series: "Toy Story 1-4",
-    image: "./Images/Toy Story.jpg"
+    image: "./Images/Toy story.jpg"
   },
   {
     id: 17,
@@ -154,7 +154,7 @@ const moviesData = [{
     category: "Adventure",
     company: "20th Century Fox",
     series: "Ice Age Series",
-    image: "./Images/Ice Age.jpg"
+    image: "./Images/Ice age.jpg"
   },
   {
     id: 20,
@@ -180,7 +180,7 @@ const moviesData = [{
     category: "Comedy",
     company: "Pixar",
     series: "Inside Out 1 & 2",
-    image: "./Images/Inside Out.jpg"
+    image: "./Images/Inside out.jpg"
   },
   {
     id: 23,
@@ -270,7 +270,7 @@ const moviesData = [{
     category: "Comedy",
     company: "Illumination",
     series: "Despicable Me 1-4",
-    image: "./Images/Despicable Me.jpg"
+    image: "./Images/Despicable me.jpg"
   },
   {
     id: 34,
@@ -314,7 +314,7 @@ const moviesData = [{
     category: "Comedy",
     company: "DreamWorks",
     series: "Boss Baby 1 & 2",
-    image: "./Images/Boss Baby.jpg"
+    image: "./Images/Boss baby.jpg"
   },
   {
     id: 39,
@@ -347,7 +347,7 @@ const moviesData = [{
     year: 2022,
     category: "Comedy",
     company: "DreamWorks",
-    image: "./Images/Bad Guys.jpg"
+    image: "./Images/Bad guys.jpg"
   },
   {
     id: 43,
@@ -364,7 +364,7 @@ const moviesData = [{
     category: "Adventure",
     company: "DreamWorks",
     series: "Kung Fu Panda 1-4",
-    image: "./Images/Kung Fu Panda.jpg"
+    image: "./Images/Kung fu panda.jpg"
   },
   {
     id: 45,
@@ -372,7 +372,7 @@ const moviesData = [{
     year: 2021,
     category: "Adventure",
     company: "Sony",
-    image: "./Images/Wish Dragon.jpg"
+    image: "./Images/Wish dragon.jpg"
   },
   {
     id: 46,
