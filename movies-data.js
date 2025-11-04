@@ -397,7 +397,7 @@ const moviesData = [{
     year: 2013,
     category: "Comedy",
     company: "Pixar",
-    image: "./Images/Monster University.jpg"
+    image: "./Images/Monster university.jpg"
   },
   {
     id: 49,
@@ -415,7 +415,7 @@ const moviesData = [{
     category: "Adventure",
     company: "DreamWorks",
     series: "How to Train Your Dragon 1-3",
-    image: "./Images/How to Train Your Dragon.jpg"
+    image: "./Images/How to train your dragon.jpg"
   },
   {
     id: 51,
@@ -424,7 +424,7 @@ const moviesData = [{
     category: "Comedy",
     company: "Sony",
     series: "Angry Birds 1 & 2",
-    image: "./Images/Angry Birds.jpg"
+    image: "./Images/Angry birds.jpg"
   },
   {
     id: 52,
@@ -472,7 +472,7 @@ const moviesData = [{
     year: 2006,
     category: "Comedy",
     company: "DreamWorks",
-    image: "./Images/Over the Hedge.jpg"
+    image: "./Images/Over the hedge.jpg"
   },
   {
     id: 58,
@@ -480,7 +480,7 @@ const moviesData = [{
     year: 2018,
     category: "Family",
     company: "Netflix",
-    image: "./Images/Duck Duck Goose.jpg"
+    image: "./Images/Duck duck goose.jpg"
   },
   {
     id: 59,
@@ -528,7 +528,7 @@ const moviesData = [{
     year: 2023,
     category: "Adventure",
     company: "Netflix",
-    image: "./Images/Monkey King.jpg"
+    image: "./Images/Monkey king.jpg"
   },
   {
     id: 65,
@@ -561,7 +561,7 @@ const moviesData = [{
     year: 2006,
     category: "Adventure",
     company: "Warner Bros",
-    image: "./Images/Ant Bully.jpg"
+    image: "./Images/Ant bully.jpg"
   },
   {
     id: 69,
@@ -577,7 +577,7 @@ const moviesData = [{
     year: 2005,
     category: "Comedy",
     company: "Disney",
-    image: "./Images/Chicken Little.jpg"
+    image: "./Images/Chicken little.jpg"
   },
   {
     id: 71,
@@ -585,7 +585,7 @@ const moviesData = [{
     year: 2015,
     category: "Adventure",
     company: "Telegael",
-    image: "./Images/Blinky Bill.jpg"
+    image: "./Images/Blinky bill.jpg"
   },
   {
     id: 72,
@@ -609,7 +609,7 @@ const moviesData = [{
     year: 2012,
     category: "Family",
     company: "Illumination",
-    image: "./Images/The Lorax.jpg"
+    image: "./Images/The lorax.jpg"
   },
   {
     id: 75,
@@ -625,7 +625,7 @@ const moviesData = [{
     year: 2021,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/Raya and the Last Dragon.jpg"
+    image: "./Images/Raya and the last dragon.jpg"
   },
   {
     id: 77,
@@ -633,7 +633,7 @@ const moviesData = [{
     year: 2022,
     category: "Comedy",
     company: "Pixar",
-    image: "./Images/Turning Red.jpg"
+    image: "./Images/Turning red.jpg"
   },
   {
     id: 78,
@@ -657,7 +657,7 @@ const moviesData = [{
     year: 2021,
     category: "Comedy",
     company: "Netflix",
-    image: "./Images/Dog Gone Trouble.jpg"
+    image: "./Images/Dog gone trouble.jpg"
   },
   {
     id: 81,
@@ -666,7 +666,7 @@ const moviesData = [{
     category: "Comedy",
     company: "Sony",
     series: "Open Season 1 & 2",
-    image: "./Images/Open Season.jpg"
+    image: "./Images/Open season.jpg"
   },
   {
     id: 82,
