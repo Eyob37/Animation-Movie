@@ -199,21 +199,47 @@ function handleViewChange(e) {
     localStorage.setItem('movieView', viewType);
 }
 
+function createCompactMovieElement(movie) {
+    const div = document.createElement('div');
+    div.className = 'movie-card compact';
+
+    const img = document.createElement('img');
+    img.className = 'movie-poster lazy';
+    img.alt = `${movie.title} poster`;
+        
+    img.src = movie.image;
+    img.dataset.src = movie.image;    
+
+    const title = document.createElement('div');
+    title.className = 'movie-title';
+    title.textContent = movie.title;
+
+    div.appendChild(img);
+    div.appendChild(title);
+
+    // Optional: click to open modal
+    div.onclick = () => showMovieModal(movie);
+
+    return div;
+}
+
 function displayMovies() {
     const container = document.getElementById('moviesGrid');
     container.innerHTML = '';
-    
-    // Update grid layout based on view
+
     if (currentView === 'compact') {
-        container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(300px, 1fr))';
+        container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+        filteredMovies.forEach(movie => {
+            const movieElement = createCompactMovieElement(movie);
+            container.appendChild(movieElement);
+        });
     } else {
         container.style.gridTemplateColumns = '1fr';
+        filteredMovies.forEach(movie => {
+            const movieElement = createMovieElement(movie);
+            container.appendChild(movieElement);
+        });
     }
-    
-    filteredMovies.forEach(movie => {
-        const movieElement = createMovieElement(movie);
-        container.appendChild(movieElement);
-    });
 }
 
 function createMovieElement(movie) {
