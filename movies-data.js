@@ -5,780 +5,627 @@ const moviesData = [{
     category: "Adventure",
     company: "Paramount",
     series: "Sonic 1, 2, 3",
-    image: "./Images/Sonic.jpg"
-  },
-  {
-    id: 2,
+    image: "./Images/Sonic.jpg"},
+  {id: 2,
     title: "Paddington",
     year: 2014,
     category: "Family",
     company: "StudioCanal",
-    image: "./Images/Paddington.jpg"
-  },
-  {
-    id: 3,
+    image: "./Images/Paddington.jpg"},
+  {id: 3,
     title: "Moana",
     year: 2016,
     category: "Adventure",
     company: "Disney",
     series: "Moana 1 & 2",
-    image: "./Images/Moana.jpg"
-  },
-  {
-    id: 4,
+    image: "./Images/Moana.jpg"},
+  {id: 4,
     title: "Bigfoot",
     year: 2018,
     category: "Adventure",
     company: "Nickelodeon",
     series: "Bigfoot 1 & 2",
-    image: "./Images/Big foot.jpg"
-  },
-  {
-    id: 5,
+    image: "./Images/Big foot.jpg"},
+  {id: 5,
     title: "Terra Willy",
     year: 2019,
     category: "Adventure",
     company: "Drawbridge",
-    image: "./Images/Terra Willy.jpg"
-  },
-  {
-    id: 6,
+    image: "./Images/Terra Willy.jpg"},
+  {id: 6,
     title: "Astro Boy",
     year: 2009,
     category: "Adventure",
     company: "Imagi",
-    image: "./Images/Astro boy.jpg"
-  },
-  {
-    id: 7,
+    image: "./Images/Astro boy.jpg"},
+  {id: 7,
     title: "WALL-E",
     year: 2008,
     category: "Adventure",
     company: "Pixar",
-    image: "./Images/Wall-E.jpg"
-  },
-  {
-    id: 8,
+    image: "./Images/Wall-E.jpg"},
+  {id: 8,
     title: "Bolt",
     year: 2008,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/Bolt.jpg"
-  },
-  {
-    id: 9,
+    image: "./Images/Bolt.jpg"},
+  {id: 9,
     title: "Rock Dog",
     year: 2016,
     category: "Comedy",
     company: "Huayi Brothers",
-    image: "./Images/Rock Dog.jpg"
-  },
-  {
-    id: 10,
+    image: "./Images/Rock Dog.jpg"},
+  {id: 10,
     title: "Onward",
     year: 2020,
     category: "Adventure",
     company: "Pixar",
-    image: "./Images/Onward.jpg"
-  },
-  {
-    id: 11,
+    image: "./Images/Onward.jpg"},
+  {id: 11,
     title: "Big Hero 6",
     year: 2014,
     category: "Adventure",
     company: "Disney",
     series: "Big Hero 6 1 & 2",
-    image: "./Images/Big Hero 6.jpg"
-  },
-  {
-    id: 12,
+    image: "./Images/Big Hero 6.jpg"},
+  {id: 12,
     title: "Cars",
     year: 2006,
     category: "Adventure",
     company: "Pixar",
-    image: "./Images/Cars.jpg"
+    image: "./Images/Cars.jpg"},
+  {id:13,
+    title: "Planes",
+    year: 2013,
+    category: "Adventure",
+    company: "Disney",
+    image: "./Images/Planes.jpg"
   },
-  {
-    id: 13,
+  {id: 14,
     title: "Ferdinand",
     year: 2017,
     category: "Family",
     company: "20th Century Fox",
-    image: "./Images/Ferdinand.jpg"
-  },
-  {
-    id: 14,
+    image: "./Images/Ferdinand.jpg"},
+  {id: 15,
     title: "Zootopia",
     year: 2016,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/Zootopia.jpg"
-  },
-  {
-    id: 15,
+    image: "./Images/Zootopia.jpg"},
+  {id: 16,
     title: "The Good Dinosaur",
     year: 2015,
     category: "Adventure",
     company: "Pixar",
-    image: "./Images/The Good Dinosaur.jpg"
-  },
-  {
-    id: 16,
+    image: "./Images/The Good Dinosaur.jpg"},
+  {id: 17,
     title: "Toy Story",
     year: 1995,
     category: "Adventure",
     company: "Pixar",
     series: "Toy Story 1-4",
-    image: "./Images/Toy story.jpg"
+    image: "./Images/Toy story.jpg"},
+  {id:18,
+    title: "The Legend of Hercules",
+    year: 2014,
+    category: "Adventure",
+    company: "Summit Entertainment",
+    image: "./Images/The Legend of Hercules.jpg"
   },
-  {
-    id: 17,
+  {id: 19,
     title: "Tarzan",
     year: 1999,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/Tarazan.jpg"
-  },
-  {
-    id: 18,
+    image: "./Images/Tarazan.jpg"},
+  {id: 20,
     title: "Aladdin",
     year: 1992,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/Aladdin.jpg"
-  },
-  {
-    id: 19,
+    image: "./Images/Aladdin.jpg"},
+  {id: 21,
     title: "Ice Age",
     year: 2002,
     category: "Adventure",
     company: "20th Century Fox",
     series: "Ice Age Series",
-    image: "./Images/Ice age.jpg"
-  },
-  {
-    id: 20,
+    image: "./Images/Ice age.jpg"},
+  {id: 22,
     title: "Frozen",
     year: 2013,
     category: "Romance",
     company: "Disney",
     series: "Frozen 1 & 2",
-    image: "./Images/Frozen.jpg"
-  },
-  {
-    id: 21,
+    image: "./Images/Frozen.jpg"},
+  {id: 23,
     title: "Tangled",
     year: 2010,
     category: "Romance",
     company: "Disney",
-    image: "./Images/Tangled.jpg"
-  },
-  {
-    id: 22,
+    image: "./Images/Tangled.jpg"},
+  {id: 24,
     title: "Inside Out",
     year: 2015,
     category: "Comedy",
     company: "Pixar",
     series: "Inside Out 1 & 2",
-    image: "./Images/Inside out.jpg"
-  },
-  {
-    id: 23,
+    image: "./Images/Inside out.jpg"},
+  {id: 25,
     title: "Luck",
     year: 2022,
     category: "Family",
     company: "Apple/Skydance",
-    image: "./Images/Luck.jpg"
-  },
-  {
-    id: 24,
+    image: "./Images/Luck.jpg"},
+  {id: 26,
     title: "Home",
     year: 2015,
     category: "Family",
     company: "DreamWorks",
-    image: "./Images/Home.jpg"
-  },
-  {
-    id: 25,
+    image: "./Images/Home.jpg"},
+  {id: 27,
     title: "Robots",
     year: 2005,
     category: "Adventure",
     company: "20th Century Fox",
-    image: "./Images/Robots.jpg"
-  },
-  {
-    id: 26,
+    image: "./Images/Robots.jpg"},
+  {id: 28,
     title: "Soul",
     year: 2020,
     category: "Drama",
     company: "Pixar",
-    image: "./Images/Soul.jpg"
-  },
-  {
-    id: 27,
+    image: "./Images/Soul.jpg"},
+  {id: 29,
     title: "The Wild Robot",
     year: 2024,
     category: "Adventure",
     company: "DreamWorks",
-    image: "./Images/The Wild Robot.jpg"
-  },
-  {
-    id: 28,
+    image: "./Images/The Wild Robot.jpg"},
+  {id: 30,
     title: "The Emoji Movie",
     year: 2017,
     category: "Comedy",
     company: "Sony",
-    image: "./Images/The Emoji Movie.jpg"
-  },
-  {
-    id: 29,
+    image: "./Images/The Emoji Movie.jpg"},
+  {id: 31,
     title: "Epic",
     year: 2013,
     category: "Adventure",
     company: "20th Century Fox",
-    image: "./Images/Epic.jpg"
-  },
-  {
-    id: 30,
+    image: "./Images/Epic.jpg"},
+  {id: 32,
     title: "Luca",
     year: 2021,
     category: "Family",
     company: "Pixar",
-    image: "./Images/Luca.jpg"
-  },
-  {
-    id: 31,
+    image: "./Images/Luca.jpg"},
+  {id: 33,
     title: "Ratatouille",
     year: 2007,
     category: "Comedy",
     company: "Pixar",
-    image: "./Images/Ratatouille.jpg"
-  },
-  {
-    id: 32,
+    image: "./Images/Ratatouille.jpg"},
+  {id: 34,
     title: "Sing",
     year: 2016,
     category: "Comedy",
     company: "Illumination",
     series: "Sing 1 & 2",
-    image: "./Images/Sing.jpg"
-  },
-  {
-    id: 33,
+    image: "./Images/Sing.jpg"},
+  {id: 35,
     title: "Despicable Me",
     year: 2010,
     category: "Comedy",
     company: "Illumination",
     series: "Despicable Me 1-4",
-    image: "./Images/Despicable me.jpg"
-  },
-  {
-    id: 34,
+    image: "./Images/Despicable me.jpg"},
+  {id: 36,
     title: "Minions",
     year: 2015,
     category: "Comedy",
     company: "Illumination",
     series: "Minions 1 & 2",
-    image: "./Images/Minions.jpg"
-  },
-  {
-    id: 35,
+    image: "./Images/Minions.jpg"},
+  {id: 37,
     title: "Megamind",
     year: 2010,
     category: "Comedy",
     company: "DreamWorks",
     series: "Megamind 1 & 2",
-    image: "./Images/Megamind.jpg"
-  },
-  {
-    id: 36,
+    image: "./Images/Megamind.jpg"},
+  {id: 38,
     title: "Hotel Transylvania",
     year: 2012,
     category: "Comedy",
     company: "Sony",
     series: "Hotel Transylvania 1-4",
-    image: "./Images/Hotel Transylvania.jpg"
-  },
-  {
-    id: 37,
+    image: "./Images/Hotel Transylvania.jpg"},  
+  {id: 39,
     title: "Spies in Disguise",
     year: 2019,
     category: "Adventure",
     company: "20th Century Fox",
-    image: "./Images/Spies in Disguise.jpg"
-  },
-  {
-    id: 38,
+    image: "./Images/Spies in Disguise.jpg"},
+  {id: 40,
     title: "The Boss Baby",
     year: 2017,
     category: "Comedy",
     company: "DreamWorks",
     series: "Boss Baby 1 & 2",
-    image: "./Images/Boss baby.jpg"
+    image: "./Images/Boss baby.jpg"},
+  {id: 41,
+    title: "Wonder Park",
+    year: 2019,
+    category: "Adventure",
+    company: "Paramount",
+    image: "./Images/Wonder Park.jpg"
   },
-  {
-    id: 39,
+  {id: 42,
     title: "Rise of the Guardians",
     year: 2012,
     category: "Adventure",
     company: "DreamWorks",
-    image: "./Images/Rise of the Guardians.jpg"
-  },
-  {
-    id: 40,
+    image: "./Images/Rise of the Guardians.jpg"},
+  {id: 43,
     title: "Monsters vs. Aliens",
     year: 2009,
     category: "Comedy",
     company: "DreamWorks",
-    image: "./Images/Monsters vs Aliens.jpg"
-  },
-  {
-    id: 41,
+    image: "./Images/Monsters vs Aliens.jpg"},
+  {id: 44,
     title: "Cloudy with a Chance of Meatballs",
     year: 2009,
     category: "Comedy",
     company: "Sony",
     series: "Cloudy 1 & 2",
-    image: "./Images/Cloudy with a Chance of Meatballs.jpg"
-  },
-  {
-    id: 42,
+    image: "./Images/Cloudy with a Chance of Meatballs.jpg"},
+  {id: 45,
     title: "The Bad Guys",
     year: 2022,
     category: "Comedy",
     company: "DreamWorks",
-    image: "./Images/Bad guys.jpg"
-  },
-  {
-    id: 43,
+    image: "./Images/Bad guys.jpg"},
+  {id: 46,
     title: "Puss in Boots",
     year: 2011,
     category: "Adventure",
     company: "DreamWorks",
-    image: "./Images/Puss in Boots.jpg"
-  },
-  {
-    id: 44,
+    image: "./Images/Puss in Boots.jpg"},
+  {id: 47,
     title: "Kung Fu Panda",
     year: 2008,
     category: "Adventure",
     company: "DreamWorks",
     series: "Kung Fu Panda 1-4",
-    image: "./Images/Kung fu panda.jpg"
-  },
-  {
-    id: 45,
+    image: "./Images/Kung fu panda.jpg"},
+  {id: 48,
     title: "Wish Dragon",
     year: 2021,
     category: "Adventure",
     company: "Sony",
-    image: "./Images/Wish dragon.jpg"
-  },
-  {
-    id: 46,
+    image: "./Images/Wish dragon.jpg"},
+  {id: 49,
     title: "The Incredibles",
     year: 2004,
     category: "Adventure",
     company: "Pixar",
     series: "The Incredibles 1 & 2",
-    image: "./Images/The Incredibles.jpg"
-  },
-  {
-    id: 47,
+    image: "./Images/The Incredibles.jpg"},
+  {id: 50,
     title: "Spider-Man: Into the Spider-Verse",
     year: 2018,
     category: "Adventure",
     company: "Sony",
-    image: "./Images/Spider-Man Into the Spider-Verse.jpg"
-  },
-  {
-    id: 48,
+    image: "./Images/Spider-Man Into the Spider-Verse.jpg"},
+  {id: 51,
     title: "Monsters University",
     year: 2013,
     category: "Comedy",
     company: "Pixar",
-    image: "./Images/Monster university.jpg"
-  },
-  {
-    id: 49,
+    image: "./Images/Monster university.jpg"},
+  {id: 52,
     title: "Monsters, Inc.",
     year: 2001,
     category: "Comedy",
     company: "Pixar",
     series: "Monsters 1 & 2",
-    image: "./Images/Monster Inc.jpg"
-  },
-  {
-    id: 50,
+    image: "./Images/Monster Inc.jpg"},
+  {id: 53,
     title: "How to Train Your Dragon",
     year: 2010,
     category: "Adventure",
     company: "DreamWorks",
     series: "How to Train Your Dragon 1-3",
-    image: "./Images/How to train your dragon.jpg"
-  },
-  {
-    id: 51,
+    image: "./Images/How to train your dragon.jpg"},
+  {id: 54,
     title: "The Angry Birds Movie",
     year: 2016,
     category: "Comedy",
     company: "Sony",
     series: "Angry Birds 1 & 2",
-    image: "./Images/Angry birds.jpg"
-  },
-  {
-    id: 52,
+    image: "./Images/Angry birds.jpg"},
+  {id: 55,
     title: "Ozzy",
     year: 2016,
     category: "Adventure",
     company: "Arcadia Motion Pictures",
-    image: "./Images/Ozzy.jpg"
-  },
-  {
-    id: 53,
+    image: "./Images/Ozzy.jpg"},
+  {id: 56,
     title: "Storks",
     year: 2016,
     category: "Comedy",
     company: "Warner Bros",
-    image: "./Images/Storks.jpg"
-  },
-  {
-    id: 54,
+    image: "./Images/Storks.jpg"},
+  {id: 57,
     title: "The Super Mario Bros. Movie",
     year: 2023,
     category: "Adventure",
     company: "Illumination",
-    image: "./Images/The Super Mario Bros. Movie.jpg"
-  },
-  {
-    id: 55,
+    image: "./Images/The Super Mario Bros. Movie.jpg"},
+  {id: 58,
     title: "Turbo",
     year: 2013,
     category: "Adventure",
     company: "DreamWorks",
-    image: "./Images/Turbo.jpg"
-  },
-  {
-    id: 56,
+    image: "./Images/Turbo.jpg"},
+  {id: 59,
     title: "Abominable",
     year: 2019,
     category: "Adventure",
     company: "DreamWorks",
-    image: "./Images/Abominable.jpg"
-  },
-  {
-    id: 57,
+    image: "./Images/Abominable.jpg"},
+  {id: 60,
     title: "Over the Hedge",
     year: 2006,
     category: "Comedy",
     company: "DreamWorks",
-    image: "./Images/Over the hedge.jpg"
+    image: "./Images/Over the hedge.jpg"},
+  {id: 61,
+    title: "The Nut Job",
+    year: 2014,
+    category: "Comedy",
+    company: "Open Road Films",
+    image: "./Images/The Nut Job.jpg"
   },
-  {
-    id: 58,
+  {id: 62,
     title: "Duck Duck Goose",
     year: 2018,
     category: "Family",
     company: "Netflix",
-    image: "./Images/Duck duck goose.jpg"
-  },
-  {
-    id: 59,
+    image: "./Images/Duck duck goose.jpg"},
+  {id: 63,
     title: "Wreck-It Ralph",
     year: 2012,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/Wreck-It Ralph.jpg"
-  },
-  {
-    id: 60,
+    image: "./Images/Wreck-It Ralph.jpg"},
+  {id: 64,
     title: "Wish",
     year: 2023,
     category: "Family",
     company: "Disney",
-    image: "./Images/Wish.jpg"
+    image: "./Images/Wish.jpg"},
+  {id: 65,
+    title: "Beauty and the Beast",
+    year: 1991,
+    category: "Romance",
+    company: "Disney",
+    image: "./Images/Beauty and the Beast.jpg"
   },
-  {
-    id: 61,
+  {id: 66,
     title: "Encanto",
     year: 2021,
     category: "Family",
     company: "Disney",
-    image: "./Images/Encanto.jpg"
-  },
-  {
-    id: 62,
+    image: "./Images/Encanto.jpg"},
+  {id: 67,
     title: "Coco",
     year: 2017,
     category: "Family",
     company: "Pixar",
-    image: "./Images/Coco.jpg"
-  },
-  {
-    id: 63,
+    image: "./Images/Coco.jpg"},
+  {id: 68,
     title: "Vivo",
     year: 2021,
     category: "Family",
     company: "Sony",
-    image: "./Images/Vivo.jpg"
-  },
-  {
-    id: 64,
+    image: "./Images/Vivo.jpg"},
+  {id: 69,
     title: "Monkey King",
     year: 2023,
     category: "Adventure",
     company: "Netflix",
-    image: "./Images/Monkey king.jpg"
-  },
-  {
-    id: 65,
+    image: "./Images/Monkey king.jpg"},
+  {id: 70,
     title: "Rio",
     year: 2011,
     category: "Adventure",
     company: "20th Century Fox",
     series: "Rio 1 & 2",
-    image: "./Images/Rio.jpg"
-  },
-  {
-    id: 66,
+    image: "./Images/Rio.jpg"},
+  {id: 71,
     title: "Ballerina (Leap!)",
     year: 2016,
     category: "Family",
     company: "Entertainment One",
-    image: "./Images/Ballerina.jpg"
-  },
-  {
-    id: 67,
+    image: "./Images/Ballerina.jpg"},
+  {id: 72,
     title: "Smallfoot",
     year: 2018,
     category: "Family",
     company: "Warner Bros",
-    image: "./Images/Small foot.jpg"
-  },
-  {
-    id: 68,
+    image: "./Images/Small foot.jpg"},
+  {id: 73,
     title: "The Ant Bully",
     year: 2006,
     category: "Adventure",
     company: "Warner Bros",
-    image: "./Images/Ant bully.jpg"
-  },
-  {
-    id: 69,
+    image: "./Images/Ant bully.jpg"},
+  {id: 74,
     title: "Elemental",
     year: 2023,
     category: "Romance",
     company: "Pixar",
-    image: "./Images/Elemental.jpg"
-  },
-  {
-    id: 70,
+    image: "./Images/Elemental.jpg"},
+  {id: 75,
     title: "Chicken Little",
     year: 2005,
     category: "Comedy",
     company: "Disney",
-    image: "./Images/Chicken little.jpg"
-  },
-  {
-    id: 71,
+    image: "./Images/Chicken little.jpg"},
+  {id: 76,
     title: "Blinky Bill",
     year: 2015,
     category: "Adventure",
     company: "Telegael",
-    image: "./Images/Blinky bill.jpg"
-  },
-  {
-    id: 72,
+    image: "./Images/Blinky bill.jpg"},
+  {id: 77,
     title: "Up",
     year: 2009,
     category: "Adventure",
     company: "Pixar",
-    image: "./Images/Up.jpg"
-  },
-  {
-    id: 73,
+    image: "./Images/Up.jpg"},
+  {id: 78,
     title: "DC League of Super-Pets",
     year: 2022,
     category: "Adventure",
     company: "Warner Bros",
-    image: "./Images/DC League of Super-Pets.jpg"
-  },
-  {
-    id: 74,
+    image: "./Images/DC League of Super-Pets.jpg"},
+  {id: 79,
     title: "The Lorax",
     year: 2012,
     category: "Family",
     company: "Illumination",
-    image: "./Images/The lorax.jpg"
-  },
-  {
-    id: 75,
+    image: "./Images/The lorax.jpg"},
+  {id: 80,
     title: "101 Dalmatians",
     year: 1961,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/101 Dalmatians.jpg"
-  },
-  {
-    id: 76,
+    image: "./Images/101 Dalmatians.jpg"},
+  {id: 81,
     title: "Raya and the Last Dragon",
     year: 2021,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/Raya and the last dragon.jpg"
-  },
-  {
-    id: 77,
+    image: "./Images/Raya and the last dragon.jpg"},
+  {id: 82,
     title: "Turning Red",
     year: 2022,
     category: "Comedy",
     company: "Pixar",
-    image: "./Images/Turning red.jpg"
-  },
-  {
-    id: 78,
+    image: "./Images/Turning red.jpg"},
+  {id: 83,
     title: "Horton Hears a Who!",
     year: 2008,
     category: "Family",
     company: "20th Century Fox",
-    image: "./Images/Horton Hears a Who.jpg"
-  },
-  {
-    id: 79,
+    image: "./Images/Horton Hears a Who.jpg"},
+  {id: 84,
     title: "Thelma the Unicorn",
     year: 2024,
     category: "Comedy",
     company: "Netflix",
-    image: "./Images/Thelma the Unicorn.jpg"
-  },
-  {
-    id: 80,
+    image: "./Images/Thelma the Unicorn.jpg"},
+  {id: 85,
     title: "Dog Gone Trouble",
     year: 2021,
     category: "Comedy",
     company: "Netflix",
-    image: "./Images/Dog gone trouble.jpg"
-  },
-  {
-    id: 81,
+    image: "./Images/Dog gone trouble.jpg"},
+  {id: 86,
     title: "Open Season",
     year: 2006,
     category: "Comedy",
     company: "Sony",
     series: "Open Season 1 & 2",
-    image: "./Images/Open season.jpg"
-  },
-  {
-    id: 82,
+    image: "./Images/Open season.jpg"},
+  {id: 87,
     title: "Meet the Robinsons",
     year: 2007,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/Meet the Robinsons.jpg"
-  },
-  {
-    id: 83,
+    image: "./Images/Meet the Robinsons.jpg"},
+  {id: 88,
     title: "The Lion King",
     year: 1994,
     category: "Adventure",
     company: "Disney",
-    image: "./Images/The Lion King.jpg"
-  },
-  {
-    id: 84,
+    image: "./Images/The Lion King.jpg"},
+  {id: 89,
     title: "Madagascar",
     year: 2005,
     category: "Comedy",
     company: "DreamWorks",
     series: "Madagascar 1 & 2",
-    image: "./Images/Madagascar.jpg"
-  },
-  {
-    id: 85,
+    image: "./Images/Madagascar.jpg"},
+  {id: 90,
     title: "Penguins of Madagascar",
     year: 2014,
     category: "Comedy",
     company: "DreamWorks",
-    image: "./Images/Penguins of Madagascar.jpg"
-  },
-  {
-    id: 86,
+    image: "./Images/Penguins of Madagascar.jpg"},
+  {id: 91,
     title: "Shrek",
     year: 2001,
     category: "Comedy",
     company: "DreamWorks",
     series: "Shrek Series",
-    image: "./Images/Shrek.jpg"
-  },
-  {
-    id: 87,
+    image: "./Images/Shrek.jpg"},
+  {id: 92,
     title: "Happy Feet",
     year: 2006,
     category: "Adventure",
     company: "Warner Bros",
-    image: "./Images/Happy Feet.jpg"
-  },
-  {
-    id: 88,
+    image: "./Images/Happy Feet.jpg"},
+  {id: 93,
     title: "Finding Nemo",
     year: 2003,
     category: "Adventure",
     company: "Pixar",
     series: "Finding Nemo & Finding Dory",
-    image: "./Images/Finding Nemo.jpg"
-  },
-  {
-    id: 89,
+    image: "./Images/Finding Nemo.jpg"},
+  {id: 94,
     title: "The Croods",
     year: 2013,
     category: "Adventure",
     company: "DreamWorks",
     series: "Croods 1 & 2",
-    image: "./Images/The Croods.jpg"
-  },
-  {
-    id: 90,
+    image: "./Images/The Croods.jpg"},
+  {id: 95,
     title: "Lightyear",
     year: 2022,
     category: "Adventure",
     company: "Pixar",
-    image: "./Images/Lightyear.jpg"
-  },
-  {
-    id: 91,
+    image: "./Images/Lightyear.jpg"},
+  {id: 96,
     title: "Brave",
     year: 2012,
     category: "Adventure",
     company: "Pixar",
-    image: "./Images/Brave.jpg"
-  },
-  {
-    id: 92,
+    image: "./Images/Brave.jpg"},
+  {id: 97,
     title: "Tinker Bell",
     year: 2008,
     category: "Fantasy",
     company: "Disney",
     series: "Tinker Bell Movies (6 films)",
-    image: "./Images/Tinker Bell.jpg"
-  },
-  {
-    id: 93,
+    image: "./Images/Tinker Bell.jpg"},
+  {id: 98,
     title: "Orion and the Dark",
     year: 2024,
     category: "Adventure",
     company: "Netflix",
-    image: "./Images/Orion and the Dark.jpg"
-  },
-  {
-    id: 94,
+    image: "./Images/Orion and the Dark.jpg"},
+  {id: 99,
     title: "The Mitchells vs. the Machines",
     year: 2021,
     category: "Adventure",
     company: "Sony",
-    image: "./Images/The Mitchells vs. the Machines.jpg"
-  },
-  {
-    id: 95,
+    image: "./Images/The Mitchells vs. the Machines.jpg"},
+  {id: 100,
     title: "The Princess and the Frog",
     year: 2009,
     category: "Romance",
@@ -789,9 +636,4 @@ const moviesData = [{
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = moviesData;
 }
-/* 
-1. nut job next to Over the Hedge
-2. planes next to cars
-3. the legend of hercules next to tarazan
-4. beauty and the beast next to encanto
-5.  */
+
